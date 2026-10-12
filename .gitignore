@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+models/
+**/bbbc039/*.zip
+**/bbbc021/images/
+**/bbbc021/indices/
+**/bbbc021/BBBC021_v1_*.csv
+*.doc
+*.docx
+*.pdf
