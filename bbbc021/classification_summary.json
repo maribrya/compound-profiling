@@ -1,0 +1,784 @@
+{
+  "fields": 297,
+  "treatments": 103,
+  "compounds": 38,
+  "classes": [
+    "Actin disruptors",
+    "Aurora kinase inhibitors",
+    "Cholesterol-lowering",
+    "DNA damage",
+    "DNA replication",
+    "Eg5 inhibitors",
+    "Epithelial",
+    "Kinase inhibitors",
+    "Microtubule destabilizers",
+    "Microtubule stabilizers",
+    "Protein degradation",
+    "Protein synthesis"
+  ],
+  "features": 83,
+  "metrics": {
+    "original": {
+      "n": 103,
+      "correct": 81,
+      "accuracy": 0.7864077669902912,
+      "balanced_accuracy": 0.7459986772486773,
+      "accuracy_ci95": [
+        0.6739130434782609,
+        0.8760330578512396
+      ],
+      "by_class": {
+        "Actin disruptors": {
+          "n": 5,
+          "correct": 2,
+          "recall": 0.4
+        },
+        "Aurora kinase inhibitors": {
+          "n": 12,
+          "correct": 12,
+          "recall": 1.0
+        },
+        "Cholesterol-lowering": {
+          "n": 6,
+          "correct": 4,
+          "recall": 0.6666666666666666
+        },
+        "DNA damage": {
+          "n": 9,
+          "correct": 9,
+          "recall": 1.0
+        },
+        "DNA replication": {
+          "n": 8,
+          "correct": 4,
+          "recall": 0.5
+        },
+        "Eg5 inhibitors": {
+          "n": 12,
+          "correct": 12,
+          "recall": 1.0
+        },
+        "Epithelial": {
+          "n": 8,
+          "correct": 7,
+          "recall": 0.875
+        },
+        "Kinase inhibitors": {
+          "n": 5,
+          "correct": 4,
+          "recall": 0.8
+        },
+        "Microtubule destabilizers": {
+          "n": 14,
+          "correct": 11,
+          "recall": 0.7857142857142857
+        },
+        "Microtubule stabilizers": {
+          "n": 9,
+          "correct": 8,
+          "recall": 0.8888888888888888
+        },
+        "Protein degradation": {
+          "n": 7,
+          "correct": 2,
+          "recall": 0.2857142857142857
+        },
+        "Protein synthesis": {
+          "n": 8,
+          "correct": 6,
+          "recall": 0.75
+        }
+      },
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          11,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          1,
+          0,
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ]
+    },
+    "blurred": {
+      "n": 103,
+      "correct": 43,
+      "accuracy": 0.4174757281553398,
+      "balanced_accuracy": 0.4010251322751323,
+      "accuracy_ci95": [
+        0.2727272727272727,
+        0.56
+      ],
+      "by_class": {
+        "Actin disruptors": {
+          "n": 5,
+          "correct": 0,
+          "recall": 0.0
+        },
+        "Aurora kinase inhibitors": {
+          "n": 12,
+          "correct": 11,
+          "recall": 0.9166666666666666
+        },
+        "Cholesterol-lowering": {
+          "n": 6,
+          "correct": 4,
+          "recall": 0.6666666666666666
+        },
+        "DNA damage": {
+          "n": 9,
+          "correct": 8,
+          "recall": 0.8888888888888888
+        },
+        "DNA replication": {
+          "n": 8,
+          "correct": 2,
+          "recall": 0.25
+        },
+        "Eg5 inhibitors": {
+          "n": 12,
+          "correct": 9,
+          "recall": 0.75
+        },
+        "Epithelial": {
+          "n": 8,
+          "correct": 1,
+          "recall": 0.125
+        },
+        "Kinase inhibitors": {
+          "n": 5,
+          "correct": 3,
+          "recall": 0.6
+        },
+        "Microtubule destabilizers": {
+          "n": 14,
+          "correct": 0,
+          "recall": 0.0
+        },
+        "Microtubule stabilizers": {
+          "n": 9,
+          "correct": 2,
+          "recall": 0.2222222222222222
+        },
+        "Protein degradation": {
+          "n": 7,
+          "correct": 1,
+          "recall": 0.14285714285714285
+        },
+        "Protein synthesis": {
+          "n": 8,
+          "correct": 2,
+          "recall": 0.25
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          6,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          4,
+          2
+        ]
+      ]
+    },
+    "restored": {
+      "n": 103,
+      "correct": 70,
+      "accuracy": 0.6796116504854369,
+      "balanced_accuracy": 0.6629960317460317,
+      "accuracy_ci95": [
+        0.5652173913043478,
+        0.7837837837837838
+      ],
+      "by_class": {
+        "Actin disruptors": {
+          "n": 5,
+          "correct": 2,
+          "recall": 0.4
+        },
+        "Aurora kinase inhibitors": {
+          "n": 12,
+          "correct": 12,
+          "recall": 1.0
+        },
+        "Cholesterol-lowering": {
+          "n": 6,
+          "correct": 4,
+          "recall": 0.6666666666666666
+        },
+        "DNA damage": {
+          "n": 9,
+          "correct": 8,
+          "recall": 0.8888888888888888
+        },
+        "DNA replication": {
+          "n": 8,
+          "correct": 4,
+          "recall": 0.5
+        },
+        "Eg5 inhibitors": {
+          "n": 12,
+          "correct": 10,
+          "recall": 0.8333333333333334
+        },
+        "Epithelial": {
+          "n": 8,
+          "correct": 7,
+          "recall": 0.875
+        },
+        "Kinase inhibitors": {
+          "n": 5,
+          "correct": 4,
+          "recall": 0.8
+        },
+        "Microtubule destabilizers": {
+          "n": 14,
+          "correct": 6,
+          "recall": 0.42857142857142855
+        },
+        "Microtubule stabilizers": {
+          "n": 9,
+          "correct": 7,
+          "recall": 0.7777777777777778
+        },
+        "Protein degradation": {
+          "n": 7,
+          "correct": 2,
+          "recall": 0.2857142857142857
+        },
+        "Protein synthesis": {
+          "n": 8,
+          "correct": 4,
+          "recall": 0.5
+        }
+      },
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0,
+          1,
+          6,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          7,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ]
+    }
+  },
+  "comparisons": {
+    "blurred_to_restored": {
+      "accuracy_difference": 0.26213592233009714,
+      "ci95": [
+        0.15305822328931573,
+        0.37896442495126687
+      ],
+      "corrected": 30,
+      "harmed": 3,
+      "changed_prediction": 49
+    },
+    "original_to_blurred": {
+      "accuracy_difference": -0.36893203883495146,
+      "ci95": [
+        -0.5130492497114275,
+        -0.22950443675740712
+      ],
+      "corrected": 2,
+      "harmed": 40,
+      "changed_prediction": 53
+    },
+    "original_to_restored": {
+      "accuracy_difference": -0.10679611650485432,
+      "ci95": [
+        -0.21487796400710596,
+        -0.010101010101010163
+      ],
+      "corrected": 2,
+      "harmed": 13,
+      "changed_prediction": 20
+    }
+  },
+  "bootstrap_replicates": 10000,
+  "bootstrap_unit": "compound",
+  "seed": 20261011,
+  "feature_rows_sha256": "e389704c2ba5288dec02fb3deeb3b111a2c84c61b4f385d851d09ba9215f950a"
+}

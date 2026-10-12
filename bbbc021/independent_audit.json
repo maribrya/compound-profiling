@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "fields": 297,
+  "profiles": 103,
+  "compounds": 38,
+  "classes": 12,
+  "source_images_verified": 891,
+  "independent_classifier_predictions": 309,
+  "corrected_harmed_identity_verified": true,
+  "metadata_labels_verified": true
+}

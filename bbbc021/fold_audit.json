@@ -1,0 +1,230 @@
+[
+  {
+    "held_out_compound": "ALLN",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "AZ-A",
+    "train_profiles": 97,
+    "test_profiles": 6,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "AZ-C",
+    "train_profiles": 96,
+    "test_profiles": 7,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "AZ-J",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "AZ-U",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "AZ138",
+    "train_profiles": 98,
+    "test_profiles": 5,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "AZ258",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "AZ841",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "MG-132",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "PD-169316",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "PP-2",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "alsterpaullone",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "anisomycin",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "bryostatin",
+    "train_profiles": 102,
+    "test_profiles": 1,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "camptothecin",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "chlorambucil",
+    "train_profiles": 102,
+    "test_profiles": 1,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "cisplatin",
+    "train_profiles": 102,
+    "test_profiles": 1,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "colchicine",
+    "train_profiles": 102,
+    "test_profiles": 1,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "cyclohexamide",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "cytochalasin B",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "cytochalasin D",
+    "train_profiles": 102,
+    "test_profiles": 1,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "demecolcine",
+    "train_profiles": 99,
+    "test_profiles": 4,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "docetaxel",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "emetine",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "epothilone B",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "etoposide",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "floxuridine",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "lactacystin",
+    "train_profiles": 102,
+    "test_profiles": 1,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "latrunculin B",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "methotrexate",
+    "train_profiles": 102,
+    "test_profiles": 1,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "mevinolin/lovastatin",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "mitomycin C",
+    "train_profiles": 99,
+    "test_profiles": 4,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "mitoxantrone",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "nocodazole",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "proteasome inhibitor I",
+    "train_profiles": 101,
+    "test_profiles": 2,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "simvastatin",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "taxol",
+    "train_profiles": 100,
+    "test_profiles": 3,
+    "active_features": 83
+  },
+  {
+    "held_out_compound": "vincristine",
+    "train_profiles": 96,
+    "test_profiles": 7,
+    "active_features": 83
+  }
+]

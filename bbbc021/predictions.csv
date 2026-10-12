@@ -1,0 +1,104 @@
+compound,concentration,moa,replicates,original_prediction,blurred_prediction,restored_prediction,original_neighbor_compound,blurred_neighbor_compound,restored_neighbor_compound,original_neighbor_concentration,blurred_neighbor_concentration,restored_neighbor_concentration
+ALLN,3.0,Protein degradation,3,Protein degradation,DNA replication,Protein degradation,proteasome inhibitor I,camptothecin,proteasome inhibitor I,0.1,0.03,0.1
+ALLN,100.0,Protein degradation,3,Protein synthesis,Cholesterol-lowering,Protein synthesis,cyclohexamide,simvastatin,emetine,15.0,2.0,0.1
+AZ-A,0.1,Aurora kinase inhibitors,3,Aurora kinase inhibitors,Aurora kinase inhibitors,Aurora kinase inhibitors,AZ258,AZ258,AZ258,0.1,0.1,0.1
+AZ-A,0.3,Aurora kinase inhibitors,3,Aurora kinase inhibitors,Aurora kinase inhibitors,Aurora kinase inhibitors,AZ841,AZ258,AZ841,0.3,0.3,0.3
+AZ-A,1.0,Aurora kinase inhibitors,3,Aurora kinase inhibitors,Aurora kinase inhibitors,Aurora kinase inhibitors,AZ258,AZ258,AZ258,0.1,0.1,0.1
+AZ-A,3.0,Aurora kinase inhibitors,3,Aurora kinase inhibitors,Aurora kinase inhibitors,Aurora kinase inhibitors,AZ258,AZ258,AZ258,0.3,0.1,0.1
+AZ-A,10.0,Aurora kinase inhibitors,3,Aurora kinase inhibitors,Aurora kinase inhibitors,Aurora kinase inhibitors,AZ258,AZ258,AZ258,0.1,0.1,0.1
+AZ-A,30.0,Aurora kinase inhibitors,3,Aurora kinase inhibitors,Aurora kinase inhibitors,Aurora kinase inhibitors,AZ258,AZ258,AZ258,0.1,0.1,0.1
+AZ-C,0.001,Eg5 inhibitors,3,Eg5 inhibitors,Eg5 inhibitors,Eg5 inhibitors,AZ138,AZ138,AZ138,0.03,0.1,3.0
+AZ-C,0.003,Eg5 inhibitors,3,Eg5 inhibitors,Protein degradation,Eg5 inhibitors,AZ138,MG-132,AZ138,0.1,0.1,0.1
+AZ-C,0.01,Eg5 inhibitors,3,Eg5 inhibitors,Protein degradation,Eg5 inhibitors,AZ138,MG-132,AZ138,0.1,0.1,0.1
+AZ-C,0.03,Eg5 inhibitors,3,Eg5 inhibitors,Protein degradation,Eg5 inhibitors,AZ138,MG-132,AZ138,0.1,0.1,0.1
+AZ-C,0.1,Eg5 inhibitors,3,Eg5 inhibitors,Eg5 inhibitors,Eg5 inhibitors,AZ138,AZ138,AZ138,0.1,0.1,0.1
+AZ-C,0.3,Eg5 inhibitors,3,Eg5 inhibitors,Eg5 inhibitors,Eg5 inhibitors,AZ138,AZ138,AZ138,0.1,0.1,0.1
+AZ-C,1.0,Eg5 inhibitors,3,Eg5 inhibitors,Eg5 inhibitors,Cholesterol-lowering,AZ138,AZ138,mevinolin/lovastatin,3.0,0.1,5.0
+AZ-J,1.0,Epithelial,3,Epithelial,Kinase inhibitors,Epithelial,AZ-U,alsterpaullone,AZ-U,1.0,1.0,1.0
+AZ-J,3.0,Epithelial,3,Epithelial,Epithelial,Epithelial,AZ-U,AZ-U,AZ-U,1.0,1.0,1.0
+AZ-J,10.0,Epithelial,3,Epithelial,Protein degradation,Epithelial,PP-2,lactacystin,PP-2,10.0,10.0,10.0
+AZ-U,1.0,Epithelial,3,Epithelial,Kinase inhibitors,Epithelial,AZ-J,alsterpaullone,AZ-J,3.0,1.0,3.0
+AZ-U,3.0,Epithelial,3,Epithelial,Protein degradation,Epithelial,AZ-J,proteasome inhibitor I,PP-2,10.0,0.1,10.0
+AZ-U,10.0,Epithelial,3,Epithelial,Protein degradation,Epithelial,AZ-J,proteasome inhibitor I,AZ-J,10.0,0.1,10.0
+AZ138,0.03,Eg5 inhibitors,3,Eg5 inhibitors,Eg5 inhibitors,Eg5 inhibitors,AZ-C,AZ-C,AZ-C,0.001,0.3,1.0
+AZ138,0.1,Eg5 inhibitors,3,Eg5 inhibitors,Eg5 inhibitors,Eg5 inhibitors,AZ-C,AZ-C,AZ-C,0.1,0.01,0.3
+AZ138,0.3,Eg5 inhibitors,3,Eg5 inhibitors,Eg5 inhibitors,Eg5 inhibitors,AZ-C,AZ-C,AZ-C,0.3,0.01,1.0
+AZ138,1.0,Eg5 inhibitors,3,Eg5 inhibitors,Eg5 inhibitors,Eg5 inhibitors,AZ-C,AZ-C,AZ-C,1.0,0.01,1.0
+AZ138,3.0,Eg5 inhibitors,3,Eg5 inhibitors,Eg5 inhibitors,Cholesterol-lowering,AZ-C,AZ-C,mevinolin/lovastatin,1.0,0.3,5.0
+AZ258,0.1,Aurora kinase inhibitors,3,Aurora kinase inhibitors,Aurora kinase inhibitors,Aurora kinase inhibitors,AZ-A,AZ-A,AZ-A,1.0,10.0,1.0
+AZ258,0.3,Aurora kinase inhibitors,3,Aurora kinase inhibitors,Aurora kinase inhibitors,Aurora kinase inhibitors,AZ-A,AZ-A,AZ-A,3.0,10.0,30.0
+AZ258,1.0,Aurora kinase inhibitors,3,Aurora kinase inhibitors,Aurora kinase inhibitors,Aurora kinase inhibitors,AZ-A,AZ-A,AZ-A,30.0,10.0,1.0
+AZ841,0.1,Aurora kinase inhibitors,3,Aurora kinase inhibitors,DNA damage,Aurora kinase inhibitors,AZ-A,etoposide,AZ-A,0.3,3.0,0.3
+AZ841,0.3,Aurora kinase inhibitors,3,Aurora kinase inhibitors,Aurora kinase inhibitors,Aurora kinase inhibitors,AZ-A,AZ258,AZ258,0.3,0.3,0.3
+AZ841,1.0,Aurora kinase inhibitors,3,Aurora kinase inhibitors,Aurora kinase inhibitors,Aurora kinase inhibitors,AZ-A,AZ258,AZ-A,0.3,0.3,0.3
+MG-132,0.1,Protein degradation,3,DNA replication,DNA replication,DNA replication,floxuridine,mitoxantrone,floxuridine,10.0,0.01,10.0
+MG-132,3.0,Protein degradation,3,DNA replication,DNA replication,DNA replication,floxuridine,floxuridine,floxuridine,30.0,30.0,30.0
+PD-169316,3.0,Kinase inhibitors,2,Kinase inhibitors,Kinase inhibitors,Kinase inhibitors,bryostatin,bryostatin,bryostatin,0.3,0.3,0.3
+PD-169316,10.0,Kinase inhibitors,2,Kinase inhibitors,Kinase inhibitors,Kinase inhibitors,bryostatin,bryostatin,bryostatin,0.3,0.3,0.3
+PP-2,3.0,Epithelial,2,Cholesterol-lowering,Protein degradation,Cholesterol-lowering,simvastatin,lactacystin,simvastatin,2.0,10.0,2.0
+PP-2,10.0,Epithelial,2,Epithelial,Protein degradation,Epithelial,AZ-J,lactacystin,AZ-U,10.0,10.0,3.0
+alsterpaullone,1.0,Kinase inhibitors,2,Microtubule destabilizers,DNA damage,Epithelial,colchicine,mitomycin C,AZ-J,0.03,0.1,1.0
+alsterpaullone,3.0,Kinase inhibitors,2,Kinase inhibitors,DNA damage,Kinase inhibitors,PD-169316,etoposide,PD-169316,10.0,3.0,10.0
+anisomycin,0.3,Protein synthesis,3,Epithelial,Epithelial,Epithelial,AZ-U,AZ-U,AZ-U,10.0,3.0,10.0
+anisomycin,1.0,Protein synthesis,3,Protein synthesis,Protein synthesis,Protein synthesis,emetine,emetine,emetine,1.0,1.0,1.0
+bryostatin,0.3,Kinase inhibitors,2,Kinase inhibitors,Kinase inhibitors,Kinase inhibitors,PD-169316,PD-169316,PD-169316,3.0,3.0,3.0
+camptothecin,0.003,DNA replication,3,DNA damage,DNA damage,DNA damage,mitomycin C,mitomycin C,mitomycin C,3.0,3.0,3.0
+camptothecin,0.01,DNA replication,3,DNA damage,DNA damage,DNA replication,mitomycin C,mitomycin C,methotrexate,3.0,3.0,10.0
+camptothecin,0.03,DNA replication,3,DNA replication,DNA damage,DNA replication,methotrexate,mitomycin C,methotrexate,10.0,3.0,10.0
+chlorambucil,10.0,DNA damage,3,DNA damage,DNA damage,DNA damage,etoposide,mitomycin C,etoposide,1.0,1.0,1.0
+cisplatin,10.0,DNA damage,3,DNA damage,DNA damage,DNA damage,mitomycin C,mitomycin C,mitomycin C,0.1,0.1,0.1
+colchicine,0.03,Microtubule destabilizers,3,DNA damage,DNA damage,Kinase inhibitors,cisplatin,cisplatin,alsterpaullone,10.0,10.0,1.0
+cyclohexamide,5.0,Protein synthesis,3,Cholesterol-lowering,Protein degradation,Epithelial,mevinolin/lovastatin,lactacystin,AZ-J,1.5,10.0,10.0
+cyclohexamide,15.0,Protein synthesis,3,Protein synthesis,Protein degradation,Protein synthesis,emetine,MG-132,emetine,0.1,0.1,0.1
+cyclohexamide,50.0,Protein synthesis,3,Protein synthesis,Protein synthesis,Protein synthesis,emetine,emetine,emetine,1.0,1.0,1.0
+cytochalasin B,10.0,Actin disruptors,3,Epithelial,Cholesterol-lowering,Epithelial,PP-2,simvastatin,PP-2,10.0,2.0,10.0
+cytochalasin B,30.0,Actin disruptors,3,Actin disruptors,Cholesterol-lowering,Actin disruptors,cytochalasin D,simvastatin,cytochalasin D,0.3,2.0,0.3
+cytochalasin D,0.3,Actin disruptors,3,Actin disruptors,Cholesterol-lowering,Actin disruptors,cytochalasin B,simvastatin,cytochalasin B,30.0,2.0,30.0
+demecolcine,0.3,Microtubule destabilizers,3,Microtubule destabilizers,Eg5 inhibitors,Microtubule destabilizers,vincristine,AZ-C,vincristine,0.01,0.3,0.01
+demecolcine,1.0,Microtubule destabilizers,3,Microtubule destabilizers,Protein degradation,Microtubule destabilizers,vincristine,MG-132,vincristine,0.01,0.1,0.01
+demecolcine,3.0,Microtubule destabilizers,3,Microtubule destabilizers,Eg5 inhibitors,Microtubule destabilizers,vincristine,AZ-C,vincristine,0.03,0.3,0.03
+demecolcine,10.0,Microtubule destabilizers,3,Microtubule destabilizers,Eg5 inhibitors,Microtubule destabilizers,vincristine,AZ-C,vincristine,0.01,0.3,3.0
+docetaxel,0.03,Microtubule stabilizers,2,Microtubule stabilizers,Protein degradation,Microtubule stabilizers,taxol,ALLN,taxol,3.0,100.0,1.0
+docetaxel,0.1,Microtubule stabilizers,2,Microtubule destabilizers,Microtubule stabilizers,Microtubule stabilizers,vincristine,taxol,taxol,3.0,1.0,1.0
+docetaxel,0.3,Microtubule stabilizers,2,Microtubule stabilizers,Protein degradation,Microtubule stabilizers,taxol,MG-132,taxol,1.0,0.1,1.0
+emetine,0.1,Protein synthesis,3,Protein synthesis,Cholesterol-lowering,Actin disruptors,cyclohexamide,simvastatin,cytochalasin B,15.0,2.0,10.0
+emetine,0.3,Protein synthesis,3,Protein synthesis,Protein degradation,Epithelial,anisomycin,proteasome inhibitor I,AZ-U,1.0,0.1,3.0
+emetine,1.0,Protein synthesis,3,Protein synthesis,Protein degradation,Protein synthesis,anisomycin,proteasome inhibitor I,cyclohexamide,1.0,0.1,50.0
+epothilone B,0.1,Microtubule stabilizers,3,Microtubule stabilizers,Protein degradation,Protein synthesis,taxol,MG-132,emetine,3.0,0.1,1.0
+epothilone B,0.3,Microtubule stabilizers,3,Microtubule stabilizers,Protein degradation,Microtubule destabilizers,taxol,MG-132,vincristine,0.3,0.1,3.0
+epothilone B,1.0,Microtubule stabilizers,3,Microtubule stabilizers,Protein degradation,Microtubule stabilizers,docetaxel,MG-132,taxol,0.3,0.1,1.0
+etoposide,1.0,DNA damage,3,DNA damage,DNA damage,DNA damage,chlorambucil,chlorambucil,chlorambucil,10.0,10.0,10.0
+etoposide,3.0,DNA damage,3,DNA damage,DNA damage,DNA damage,mitomycin C,mitomycin C,mitomycin C,1.0,1.0,1.0
+etoposide,10.0,DNA damage,3,DNA damage,DNA damage,DNA damage,chlorambucil,chlorambucil,chlorambucil,10.0,10.0,10.0
+floxuridine,10.0,DNA replication,3,Protein degradation,Protein degradation,Protein degradation,MG-132,MG-132,MG-132,0.1,0.1,0.1
+floxuridine,30.0,DNA replication,3,Protein degradation,Protein degradation,Protein degradation,proteasome inhibitor I,proteasome inhibitor I,proteasome inhibitor I,3.0,3.0,3.0
+lactacystin,10.0,Protein degradation,3,Epithelial,DNA replication,Epithelial,PP-2,methotrexate,PP-2,3.0,10.0,3.0
+latrunculin B,1.0,Actin disruptors,3,Protein synthesis,Epithelial,Protein synthesis,anisomycin,AZ-U,anisomycin,0.3,3.0,0.3
+latrunculin B,3.0,Actin disruptors,3,Epithelial,Epithelial,Epithelial,AZ-U,AZ-U,AZ-U,10.0,3.0,10.0
+methotrexate,10.0,DNA replication,3,DNA replication,DNA replication,DNA replication,camptothecin,camptothecin,camptothecin,0.03,0.03,0.03
+mevinolin/lovastatin,1.5,Cholesterol-lowering,3,Epithelial,Protein degradation,Epithelial,AZ-J,lactacystin,AZ-J,10.0,10.0,10.0
+mevinolin/lovastatin,5.0,Cholesterol-lowering,3,Cholesterol-lowering,Cholesterol-lowering,Cholesterol-lowering,simvastatin,simvastatin,simvastatin,6.0,2.0,6.0
+mevinolin/lovastatin,15.0,Cholesterol-lowering,3,Cholesterol-lowering,Cholesterol-lowering,Cholesterol-lowering,simvastatin,simvastatin,simvastatin,20.0,2.0,20.0
+mitomycin C,0.1,DNA damage,3,DNA damage,DNA damage,DNA damage,cisplatin,cisplatin,cisplatin,10.0,10.0,10.0
+mitomycin C,0.3,DNA damage,3,DNA damage,DNA damage,DNA damage,cisplatin,chlorambucil,cisplatin,10.0,10.0,10.0
+mitomycin C,1.0,DNA damage,3,DNA damage,DNA damage,DNA damage,chlorambucil,chlorambucil,chlorambucil,10.0,10.0,10.0
+mitomycin C,3.0,DNA damage,3,DNA damage,DNA replication,DNA replication,etoposide,camptothecin,methotrexate,10.0,0.003,10.0
+mitoxantrone,0.003,DNA replication,3,DNA replication,Protein degradation,Protein degradation,camptothecin,lactacystin,lactacystin,0.03,10.0,10.0
+mitoxantrone,0.01,DNA replication,3,DNA replication,DNA replication,DNA replication,camptothecin,camptothecin,camptothecin,0.03,0.003,0.03
+nocodazole,1.0,Microtubule destabilizers,3,Microtubule stabilizers,Aurora kinase inhibitors,Microtubule stabilizers,epothilone B,AZ258,epothilone B,0.1,1.0,0.1
+nocodazole,3.0,Microtubule destabilizers,3,Microtubule stabilizers,Aurora kinase inhibitors,Aurora kinase inhibitors,epothilone B,AZ258,AZ258,0.1,1.0,1.0
+proteasome inhibitor I,0.1,Protein degradation,2,Protein degradation,DNA replication,Protein degradation,ALLN,camptothecin,ALLN,3.0,0.03,3.0
+proteasome inhibitor I,3.0,Protein degradation,2,DNA replication,Protein degradation,Protein synthesis,mitoxantrone,MG-132,cyclohexamide,0.003,0.1,50.0
+simvastatin,2.0,Cholesterol-lowering,3,Epithelial,Protein degradation,Epithelial,PP-2,lactacystin,PP-2,3.0,10.0,3.0
+simvastatin,6.0,Cholesterol-lowering,3,Cholesterol-lowering,Cholesterol-lowering,Cholesterol-lowering,mevinolin/lovastatin,mevinolin/lovastatin,mevinolin/lovastatin,5.0,5.0,5.0
+simvastatin,20.0,Cholesterol-lowering,3,Cholesterol-lowering,Cholesterol-lowering,Cholesterol-lowering,mevinolin/lovastatin,mevinolin/lovastatin,mevinolin/lovastatin,15.0,15.0,15.0
+taxol,0.3,Microtubule stabilizers,3,Microtubule stabilizers,Protein synthesis,Microtubule stabilizers,docetaxel,emetine,docetaxel,0.03,1.0,0.3
+taxol,1.0,Microtubule stabilizers,3,Microtubule stabilizers,Protein degradation,Microtubule stabilizers,docetaxel,MG-132,docetaxel,0.3,0.1,0.3
+taxol,3.0,Microtubule stabilizers,3,Microtubule stabilizers,Microtubule stabilizers,Microtubule stabilizers,docetaxel,epothilone B,docetaxel,0.03,0.1,0.3
+vincristine,0.003,Microtubule destabilizers,3,Microtubule destabilizers,Protein synthesis,Microtubule destabilizers,demecolcine,emetine,demecolcine,0.3,1.0,0.3
+vincristine,0.01,Microtubule destabilizers,3,Microtubule destabilizers,Protein degradation,Microtubule destabilizers,demecolcine,MG-132,demecolcine,10.0,0.1,10.0
+vincristine,0.03,Microtubule destabilizers,3,Microtubule destabilizers,Eg5 inhibitors,Eg5 inhibitors,demecolcine,AZ-C,AZ-C,3.0,0.3,0.03
+vincristine,0.1,Microtubule destabilizers,3,Microtubule destabilizers,Eg5 inhibitors,Eg5 inhibitors,demecolcine,AZ-C,AZ-C,3.0,0.3,1.0
+vincristine,0.3,Microtubule destabilizers,3,Microtubule destabilizers,Protein degradation,Eg5 inhibitors,demecolcine,MG-132,AZ138,10.0,0.1,1.0
+vincristine,1.0,Microtubule destabilizers,3,Microtubule destabilizers,Eg5 inhibitors,Eg5 inhibitors,demecolcine,AZ-C,AZ-C,0.3,0.3,0.001
+vincristine,3.0,Microtubule destabilizers,3,Microtubule destabilizers,Eg5 inhibitors,Eg5 inhibitors,demecolcine,AZ-C,AZ138,10.0,0.3,3.0

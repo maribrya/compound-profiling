@@ -1,0 +1,23 @@
+{
+  "seed": 20261011,
+  "fields": 297,
+  "compounds": 38,
+  "treatments": 103,
+  "classes": 12,
+  "image_selection": "first plate/well/filename per compound/concentration/replicate; no DMSO",
+  "downsample": "2x2 area averaging for all channels",
+  "blur_sigma": 2,
+  "perturbed_channel": "DNA only",
+  "restorer": "Cellpose3 deblur_nuclei",
+  "restorer_inference": "full frame; native analysis size; padding to multiple of 16",
+  "restorer_sha256": "00a2c9a84998c8e32cbfbbb7d7dfcf20a7d1413081ecb3e6a30a1c3e5b48171c",
+  "restorer_training_data_overlap": "not excluded",
+  "segmenter": "Otsu + filled holes + distance watershed; peak minimum distance 5, threshold 2; minimum area 30; remove border objects",
+  "classifier": "1 nearest training treatment profile, cosine distance, train-only standardization",
+  "training": "original images only; fixed hyperparameters; leave one whole compound out",
+  "profile_aggregation": "arithmetic mean of available selected replicate field features",
+  "bootstrap": "10000 paired resamples of 38 compounds",
+  "scope": "pilot subset; no independent batch holdout",
+  "compute_workers": 3,
+  "torch_threads": 2
+}
