@@ -1,5 +1,6 @@
 # Compound profiling
 
+[![Check results](https://github.com/maribrya/compound-profiling/actions/workflows/check.yml/badge.svg)](https://github.com/maribrya/compound-profiling/actions/workflows/check.yml)
 Maria Bryantseva · October 2026 · Unpublished research; conference abstract submitted
 
 How does nuclear-channel restoration affect mechanism-of-action classification?
