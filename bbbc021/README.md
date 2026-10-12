@@ -1,0 +1,1 @@
+Derived features, treatment profiles and predictions from the completed BBBC021 pilot. Source metadata and TIFF images are downloaded separately with inspect_bbbc021.py and fetch_bbbc021.py. independent_audit.json records the original local audit.
